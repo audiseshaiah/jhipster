@@ -1,0 +1,60 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.test.myapp",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "microservice",
+    "baseName": "helloworld",
+    "packageName": "com.test.myapp",
+    "packageFolder": "com/test/myapp",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "NTU0NTBmZjM4NzZiMmRjZDdkZDU3NjkxMzhlYjhhNzc0OTBjMDcxNTNlMjZkNDg2OTVmMWJhZDEwMDgxMDE3NTgwNDFjMTdlODEyNWY0ZWVjMWZjM2Y4N2YwOTE5MzI3YmM3YmUyYzE1ZTMxNDZmZDU0MTkwOWQ4ZDJiMTRiMjI=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nav-element",
+        "version": "2.0.13"
+      },
+      {
+        "name": "generator-jhipster-docker",
+        "version": "2.5.0"
+      },
+      {
+        "name": "generator-jhipster-electron",
+        "version": "1.0.0"
+      },
+      {
+        "name": "generator-jhipster-obfuscation-at-rest",
+        "version": "0.3.0"
+      },
+      {
+        "name": "generator-jhipster-social-login-api",
+        "version": "0.0.1"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
